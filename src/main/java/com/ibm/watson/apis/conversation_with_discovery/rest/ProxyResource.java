@@ -107,7 +107,7 @@ public class ProxyResource {
     // appropriate conversation service.
 
     ConversationService service =
-        new ConversationService(API_VERSION != null ? API_VERSION : ConversationService.VERSION_DATE_2016_09_20);
+        new ConversationService(API_VERSION != null ? API_VERSION : ConversationService.VERSION_DATE_2016_11_07);
     if ((username != null) || (password != null)) {
       service.setUsernameAndPassword(username, password);
     }
